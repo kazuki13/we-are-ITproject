@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+   <head>
+       <title>{{ title }} - FZ5050</title>
+       <link rel="stylesheet" href="static/css/style.css">
+   </head>
+   <body>
+       <script src="static/js/sclipt2.js"></script>
+       <img src="{{ url_for('main.video_feed') }}">
+   </body>
+   {% endblock %}
